@@ -72,6 +72,7 @@ select lpad('oracle',11,'abc') from dual;
 |LPAD('ORACLE',11,'ABC')|
 |:-------:|
 |abcaboracle|
+
 #####el sistema agrega el abc pero como no llega a los 11 caracteres agrega el ab
 
 ___
