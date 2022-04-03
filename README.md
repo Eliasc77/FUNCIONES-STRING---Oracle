@@ -10,7 +10,7 @@ select chr(65) from dual;
 --dice el caracter que tiene ese numero
 ```
 |CHR(65)|
-|-------:|
+|:-------:|
 |A|
 
 ```sql
@@ -18,7 +18,7 @@ select chr(65) from dual;
 select ascii('A') from dual;
 ```
 |ASCII('A')|
-|-------:|
+|:-------:|
 |65|
 ___
 
@@ -27,7 +27,7 @@ ___
 select concat('buenas','tardes') from dual;
 ```
 |CONCAT('BUENAS','TARDES')|
-|-------:|
+|:-------:|
 |buenas tardes|
 
 ___
@@ -38,7 +38,7 @@ ___
 select initcap('buenas tardes') from dual;
 ```
 |INITCAP('BUENASTARDES')|
-|-------:|
+|:-------:|
 |Buenas Tardes|
 
 ___
@@ -48,7 +48,7 @@ ___
 select lower('BUENAS TARDES') from dual;
 ```
 |LOWER('BUENASTARDES')|
-|-------:|
+|:-------:|
 |buenas tardes|
 
 ___
